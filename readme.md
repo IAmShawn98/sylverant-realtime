@@ -1,7 +1,7 @@
 # PSO Sylverant: Realtime Player Population
 A simple modification to the Sylverant website enabling users to view the server population in realtime.
 
-![preview](population.png)
+![preview](population.jpg)
 
 ### How to Install It:
 1. Click on the green 'Clone or Download' button and click 'Download Zip'.
