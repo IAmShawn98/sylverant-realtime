@@ -14,4 +14,4 @@ A simple modification to the Sylverant website enabling users to view the server
 8. You're done, congrats!
 
 You will know if everything is working properly when you see 'PSO Population' in place of the usual 'Server Status' text on
-the Sylverant website.
+- the Sylverant website.
