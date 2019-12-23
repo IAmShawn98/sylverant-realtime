@@ -14,4 +14,7 @@ A simple modification to the Sylverant website enabling users to view the server
 8. You're done, congrats!
 
 You will know if everything is working properly when you see 'PSO Population' in place of the usual 'Server Status' text on
-- the Sylverant website.
+the Sylverant website.
+
+### Please Note:
+Currently this build is only optimized for Google Chrome extension packing. It will not work on other browsers quite yet. This message will update when I have optimized this for any other web browser.
