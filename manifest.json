@@ -1,9 +1,9 @@
 {
-  "name": "Sylverant: Realtime Player Population",
+  "name": "Sylverant Realtime",
   "version": "1.0.0",
-  "version_name": "V-1.0.0:B",
+  "version_name": "V-1.0.0",
   "manifest_version": 2,
-  "description": "A simple modification to the Sylverant website enabling users to view the server population in realtime without clicking 'Refresh Server Status'.",
+  "description": "Sylverant Realtime is a web extension for the Phantasy Star Online Dreamcast private server. Game Guides, realtime updates, and more!",
   "homepage_url": "https://sylverant.net/",
   "icons": {
     "128": "icon.png"
@@ -15,8 +15,9 @@
     "persistent": true
   },
   "browser_action": {
+    "default_title": "Sylverant Realtime Portal",
     "default_icon": "icon.png",
-    "default_title": "Activate (Turn On)"
+    "default_popup": "portal.html"
   },
   "permissions": [
     "https://sylverant.net/",

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Trochut&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <!-- Github Buttons -->
+    <script src="./assets/js/github-buttons.js"></script>
+    <!-- jQuery -->
+    <script src="./assets/js/jquery.js"></script>
+    <!-- Ajax -->
+    <script src="./assets/js/ajax.js"></script>
+    <!-- Stream Checker -->
+    <script src="./assets/js/whoislive.js"></script>
+</head>
+
+<body>
+    <!-- Life Stream Alert Sound -->
+    <audio id="a-str_alert">
+        <source src="./assets/sounds/str_alert.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Hover Link Sound Effect -->
+    <audio id="a-hover_sound">
+        <source src="./assets/sounds/hover_sound.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Click Select Sound -->
+    <audio id="a-hover_sound">
+        <source src="./assets/sounds/select_sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Star This Project -->
+    <div id="StarProject">
+        <a class="github-button" href="https://github.com/IAmShawn98/sylverant-realtime"
+            data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large"
+            data-show-count="true" aria-label="Star IAmShawn98/sylverant-realtime on GitHub">Star Project</a>
+    </div>
+    <!-- Follow This Project -->
+    <div id="WatchProject">
+        <a class="github-button" href="https://github.com/IAmShawn98/sylverant-realtime/subscription"
+            data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true"
+            aria-label="Watch IAmShawn98/sylverant-realtime on GitHub">Follow Project</a>
+    </div>
+    <!-- Sylverant Realtime (Brand Text) -->
+    <h1 id="brand">Phantasy Star Online</h1>
+    <h2 id="AppBrand">Sylverant Realtime V-1.0.0</h2>
+    <p id="ResourcePortal">Realtime Player Population, Game Resources, and More!</p>
+    <!-- Content Seperator -->
+    <img id="seperator" src="./assets/images/seperator.png" alt="seperator.png" />
+
+    <!-- Bookmarks Container -->
+    <div id="PortalContainer">
+        <div id="PortalContent-head">
+            <!-- Bookmarks Card Brand -->
+            <p id="pc-label">
+                PSO Community Bookmarks
+            </p>
+        </div>
+        <div id="PortalContent-body">
+            <!-- Bookmarks Table -->
+            <table style="width:100%">
+                <!-- Bookmarks Table Heading -->
+                <tr>
+                    <th>Social Links:</th>
+                    <th>Game Guides:</th>
+                    <th>Active Streamers:</th>
+                </tr>
+                <!-- Social Links Content -->
+                <tr>
+                    <td>
+                        <a class="r-link" target="_blank" href="https://discordapp.com/invite/R2ATFFm">
+                            &rarr; Discord Server
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://www.dreamcast-talk.com/forum/index.php">
+                            &rarr; Dreamcast Talk
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://webchat.freenode.net/#ljsdcdev">
+                            &rarr; IRC Channel
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://psopalace.sylverant.net/">
+                            &rarr; PSO Palace
+                        </a>
+                        <br />
+                    </td>
+                    <!-- Game Guides Content -->
+                    <td>
+                        <a class="r-link" target="_blank"
+                            href="http://www.pso-world.com/sections.php?section=Mags&op=viewtopsection">
+                            &rarr; Mag Guide
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank"
+                            href="http://www.pso-world.com/sections.php?op=viewtopsection&section=Weapons&secver=1">
+                            &rarr; Weapon Guide
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://psopalace.sylverant.net/downloads.html">
+                            &rarr; PSO Game Patches
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://psopalace.sylverant.net/guides.html">
+                            &rarr; PSO Patch Guides
+                        </a>
+                        <br />
+                    </td>
+                    <!-- Active Streamers Content -->
+                    <td>
+                        <a class="r-link" target="_blank"
+                            href="https://www.youtube.com/channel/UCU8p3fIw5Ibu5ECdFM5NmNQ/videos">
+                            &rarr; <span id="jax">Jaxxer On PSO</span>
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://www.youtube.com/user/DreamcasticChannel/videos">
+                            &rarr; <span id="dream">Dreamcastic Channel</span>
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://www.youtube.com/user/UglyGoblinBoy/videos">
+                            &rarr; <span id="ugb">William Nash</span>
+                        </a>
+                        <br />
+                        <a class="r-link" target="_blank" href="https://www.twitch.tv/evilmag/videos">
+                            &rarr; <span id="mag">Evil Mag</span>
+                        </a>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="PortalContent-footer"></div>
+    </div>
+    <!-- Last Update Made | Check For Updates -->
+    <span id="LastUpdated"><b>Last Update</b>: 1.25.2020. <a target="_blank" id="CheckUpdates"
+            href="https://github.com/IAmShawn98/sylverant-realtime">(Check For Updates)</a></span>
+
+    <!-- Footer Copyrights & Disclaimers -->
+    <div id="footer">
+        <br />
+        <strong>Legal Disclaimer Thingy:</strong> <br />
+        <i>This project is not affiliated with nor endorsed by Sylverant in any official manner.</i>
+        <br /> <br />
+        <img style="position: absolute; width: 35%; left: 250px; top: 58px;" id="seperator"
+            src="./assets/images/seperator.png" alt="seperator.png" />
+        <br />
+        Sylverant Realtime: A Thing By Shawn Luther <br />
+        Sylverant Site & Design: Jean-Paul Van Gorder <br />
+        Sylverant: &copy; 2009 - 2020 Lawrence Sebald <br />
+    </div>
+</body>
+
+</html>

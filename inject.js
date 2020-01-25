@@ -1,28 +1,36 @@
-// The code below will be injected into 'https://sylverant.net/'. This is what makes the server status realtime.
+// Sylverant Realtime: A Thing By Shawn Luther 2020 | Project Source: https://github.com/IAmShawn98/sylverant-realtime
+// Sylverant Site & Design: Jean-Paul Van Gorder (Credit for creating 'bg.png' and 'seperator.png').
+// Sylverant: © 2009 - 2020 Lawrence Sebald (Thank you for approving the use of those two resources ^).
+// ---------------------------------------------------------------------------------------------------------------
+// This script is executed on page load, injected into only the 'https://sylverant.net/' index page.
+// Everything inside this function contains quality of life updates to the sylverant website, as 
+// well as the realtime server status integration. Learn more in readme.md or on github.
+// ---------------------------------------------------------------------------------------------------------------
 
-(function () {
-	// Repurpose the 'Home' link under 'Navigation' to be the 'Sylverant Login' page, which is more useful.
-	document.getElementsByTagName("a")[0].setAttribute("id", "login");
-	document.getElementById("login").href = "https://wsgi.sylverant.net/login.py";
-	document.getElementById("login").textContent = "Sylverant Login";
+(() => {
+	// Global DOM Reference Variables.
+	const login = document.getElementsByTagName("a")[0]; // Reference to the 'Home' Link.
+	const population = document.getElementsByTagName("span")[1]; // Reference to the 'Server Status' Text.
+	const refresh = document.getElementsByTagName("a")[11]; // Reference to the refresh button.
 
-	// Change the name of the server status card to reflect this new realtime functionality.
-	document.getElementsByTagName("span")[1].setAttribute("id", "server-status-card-name");
-	document.getElementById("server-status-card-name").textContent = "PSO Population";
-	// document.getElementById("server-status-card-name").style = "font-size: 69%;";
+	// Overrides the 'Home' link and converts it into the new 'Sylverant Login' for easy access. 
+	login.setAttribute("id", "login");
+	login.href = "https://wsgi.sylverant.net/login.py";
+	login.textContent = "Sylverant Login";
 
-	// Attach ID 'server-count' to the button used to manually refresh.
-	document.getElementsByTagName("a")[11].setAttribute("id", "server-count");
-	document.getElementById("server-count").textContent = " ";
+	// Overrides the 'Server Status' Text String into 'PSO Population' because it sounds more user friendly.
+	population.setAttribute("id", "server-status-card-name");
+	population.textContent = "PSO Population";
 
-	// Ping Server and Retrieve An Update Every two Seconds.
-	setInterval(function () {
-		// Show Server Pings.
-		console.warn('%c 🌎 Sylverant Realtime Server Status is running on your machine.... ', 'color: #69ab3d');
+	// Attaches an id called 'server-count' to the refresh button, then, clear tne button from visibility.
+	// This is done so we can still access its functionality but the user will no longer need to interact
+	// with it, so, we just remove it from sight.
+	refresh.setAttribute("id", "server-count"); // Attach ID.
+	refresh.textContent = " "; // Clear Text String.
+
+	// Ping the DOM for continuous server updates.
+	setInterval(() => {
 		// Refresh Server Status.
-		document.getElementById("server-count").click();
-	}, 2000); // Repeat this function every two seconds for continuous updates.
-
-	// Clear the console so the user can clearly view the incoming DOM pings.
-	console.clear();
+		refresh.click();
+	}, 2000); // Repeat this function every two seconds.
 })();
