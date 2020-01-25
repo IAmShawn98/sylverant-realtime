@@ -9,7 +9,7 @@
 
 (() => {
 	// Global DOM Reference Variables.
-	const login = document.getElementsByTagName("a")[0]; // Reference to the 'Home' Link.
+	const login = document.getElementsByTagName("a")[5]; // Reference to the 'Home' Link.
 	const population = document.getElementsByTagName("span")[1]; // Reference to the 'Server Status' Text.
 	const refresh = document.getElementsByTagName("a")[11]; // Reference to the refresh button.
 
