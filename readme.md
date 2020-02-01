@@ -42,7 +42,7 @@ If you followed the above steps correctly, you should see "PSO Population" where
 
 ### Latest Release Notes:
 
-Sylverant-Realtime [1.0.0]:
+Sylverant-Realtime Patch Notes | Released: 1.25.2020 | [V-1.0.0]:
 * Bug Fixes/Improvements:
   * Performed a massive backend overhaul and directory cleanup.
   * Updated the extension icon hover text to better describe what it does.
