@@ -39,3 +39,5 @@ If you followed the above steps correctly, you should see "PSO Population" where
 ### Most Supported Browsers:
 1. Google Chrome.
 2. Firefox.
+
+All of the latest patch notes can be found under, 'Releases' here on Github.
