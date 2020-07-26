@@ -39,35 +39,3 @@ If you followed the above steps correctly, you should see "PSO Population" where
 ### Most Supported Browsers:
 1. Google Chrome.
 2. Firefox.
-
-### Latest Release Notes:
-
-Sylverant-Realtime Patch Notes | Released: 7.26.2020 | [V-2.0.0]:
-* Bug Fixes/Improvements:
-  * Added missing sounds to links that should have had it previously.
-  * Updated 'PSO Community Bookmarks' to include all currently relevant game resources.
-  * Changed all links from right arrows to double right arrows to better fit the theme of Slyverant's website.
-  * Changed the text 'Last Updated' to 'Release Version' so users know the current version they have might not be most recent.
-  * The '(Check for Updates)' button now has a proper hover state.
-  * Made some minor minifications to the source code.
-* New Features:
-  * You can now 'DETACH' the server status window and drag it around the screen freely by clicking on 'PSO Population'
-  * Updated the 'Active Streamers' tab to reflect the latest and greatest PSO streamers.
-* Known Issues:
-  * The feature that shows when a PSO streamer is live has been updated, however, the rate limit from last update still applies, and you might not always be notified of active streamers.
-
-Sylverant-Realtime Patch Notes | Released: 1.25.2020 | [V-1.0.0]:
-* Bug Fixes/Improvements:
-  * Performed a massive backend overhaul and directory cleanup.
-  * Updated the extension icon hover text to better describe what it does.
-  * Fixed a bug causing the extension to modify HTML on random web pages sometimes.
-  * Removed annoying console warning put in place to show when the app is running.
-* New Features:
-  * Created the brand new 'Sylverant Realtime Portal', containing all the best bookmarked guides, sites, and streamers of PSO!
-  * Added the ability to show who is live streaming PSO from the list of active streamers.
-  * Hovering over text makes the classic PSO hover sound on all links and buttons.
-  * Added support for Mozilla Firefox!
-* Known Issues:
-  * With the new ability to view when a streamer is live realtime, it might not always work. There is a known rate limit that the YouTube API sets and depending on how many people download this tool, it may not always work completely as intended. This will get buffed out in future content updates. Think of this feature as in its alpha stage.
-
-Please Note: All updates are made here, check back on occasion for future releases.
