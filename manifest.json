@@ -1,9 +1,9 @@
 {
   "name": "Sylverant Realtime",
-  "version": "1.0.0",
-  "version_name": "V-1.0.0",
+  "version": "2.0.0",
+  "version_name": "V-2.0.0",
   "manifest_version": 2,
-  "description": "Sylverant Realtime is a web extension for the Phantasy Star Online Dreamcast private server. Game Guides, realtime updates, and more!",
+  "description": "Sylverant Realtime is a web extension for the DC, GC, and PC private server's website that provides: Realtime Player Count, PSO Resources, and more!",
   "homepage_url": "https://sylverant.net/",
   "icons": {
     "128": "icon.png"

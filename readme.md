@@ -36,11 +36,25 @@ to all things PSO and Sylverant!
 
 If you followed the above steps correctly, you should see "PSO Population" where "Server Status" once was on the website.
 
-### Supported Browsers:
+### Most Supported Browsers:
 1. Google Chrome.
 2. Firefox.
 
 ### Latest Release Notes:
+
+Sylverant-Realtime Patch Notes | Released: 7.26.2020 | [V-2.0.0]:
+* Bug Fixes/Improvements:
+  * Added missing sounds to links that should have had it previously.
+  * Updated 'PSO Community Bookmarks' to include all currently relevant game resources.
+  * Changed all links from right arrows to double right arrows to better fit the theme of Slyverant's website.
+  * Changed the text 'Last Updated' to 'Release Version' so users know the current version they have might not be most recent.
+  * The '(Check for Updates)' button now has a proper hover state.
+  * Made some minor minifications to the source code.
+* New Features:
+  * You can now 'DETACH' the server status window and drag it around the screen freely by clicking on 'PSO Population'
+  * Updated the 'Active Streamers' tab to reflect the latest and greatest PSO streamers.
+* Known Issues:
+  * The feature that shows when a PSO streamer is live has been updated, however, the rate limit from last update still applies, and you might not always be notified of active streamers.
 
 Sylverant-Realtime Patch Notes | Released: 1.25.2020 | [V-1.0.0]:
 * Bug Fixes/Improvements:
