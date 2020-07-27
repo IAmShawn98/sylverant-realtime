@@ -27,7 +27,8 @@
 	// Attaches an id called 'server-count' to the refresh button so we can manipulate it.
 	refresh.setAttribute("id", "server-count"); // Attach ID.
 	refresh.style = "text-decoration: none; cursor: auto; color: #ffffff;"; // Turn 'refresh' button into 'plain text'.
-	refresh.innerHTML = ""; // Show server status messages.
+	// Hides the refresh button from visibility as it's pretty much pointless at this point.
+	refresh.innerHTML = "";
 
 	// Ping the DOM for continuous server updates.
 	setInterval(() => {
