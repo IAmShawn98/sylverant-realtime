@@ -21,19 +21,13 @@
 	population.style = "cursor: pointer;";
 	population.textContent = "PSO Population";
 
-	// Override and remove the 'Refresh' button because its useless at this point.
-	document.getElementById("refresh_status").remove();
-
 	// Detach the server status tab and drag it anywhere!
 	population.addEventListener("click", DetachServerStatus);
-
-	// Server Status Messages.
-	refresh.addEventListener("click", ServerStatus);
 
 	// Attaches an id called 'server-count' to the refresh button so we can manipulate it.
 	refresh.setAttribute("id", "server-count"); // Attach ID.
 	refresh.style = "text-decoration: none; cursor: auto; color: #ffffff;"; // Turn 'refresh' button into 'plain text'.
-	refresh.innerHTML = "<p>Server Status: <b id='scm'><div style='text-align: center;'> <img id='loading' src='https://sylverant.net/wp-content/themes/sylverant/images/loading.gif' alt='Loading...'> </div></b></p>"; // Show server status messages.
+	refresh.innerHTML = ""; // Show server status messages.
 
 	// Ping the DOM for continuous server updates.
 	setInterval(() => {
